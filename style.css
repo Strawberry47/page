@@ -1,0 +1,513 @@
+@charset "UTF-8";
+@import url(local.google.fonts.css);
+@import url(icontfont.css);
+/*@import url("https://fonts.lug.ustc.edu.cn/css?family=Vollkorn");*/
+@font-face {
+  font-family: 'Chancery';
+  src: url("fonts/chancery/apple-chancery-webfont.eot");
+  src: local("Apple Chancery"), url("fonts/chancery/apple-chancery-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/chancery/apple-chancery-webfont.woff2") format("woff2"), url("fonts/chancery/apple-chancery-webfont.woff") format("woff"), url("fonts/chancery/apple-chancery-webfont.ttf") format("truetype"), url("fonts/chancery/apple-chancery-webfont.svg#apple-chancery") format("svg");
+  font-weight: lighter;
+  font-style: normal; }
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+/**
+ * Remove default margin.
+ */
+
+
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+
+
+
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+html {
+  font-size: 16px;
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 5px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #34495e;
+  background: #f6f7f9;
+  scroll-behavior: smooth; 
+
+  background: linear-gradient(rgba(255,255,255,0.5),rgba(245,245,245,1)), 
+  /*url("image/night-right.jpg");*/
+  url("image/sunflower.jpg");
+  background-position: right top;
+  background-repeat: repeat;
+  opacity: 1; 
+  background-size: 50%;
+  background-color: #f5f7f9;
+  background-attachment: fixed;
+}
+
+
+.container {
+  border: 1px solid #BBB;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #737373;
+  font-family: 'Lato', sans-serif;
+  background: white; 
+  margin: 0 auto;
+  position: relative;
+  width: 960px; 
+
+  /*background-image: url("http://cdn.chongminggao.top/background/profile_white.jpg");*/
+  background-image: url("image/cat.png");
+  background-repeat: no-repeat;
+  background-size: 120px;
+  background-position: 90% bottom;
+
+}
+
+section {
+  margin: 0 auto;
+  position: relative;
+  width: 800px; 
+}
+
+body {
+  /*-webkit-font-smoothing: subpixel-antialiased; */
+}
+
+/*@import url(http://fonts.lug.ustc.edu.cn/css?family=Lato:100,300,400,300italic|Vollkorn:400italic,400);*/
+.basic-info {
+  position: absolute;
+  left: 300px;
+  top: 90px;
+  color: #555;
+  text-align: left; }
+name {
+    position: absolute;
+    left: 80px;
+    display: block;
+    font-family: "Chancery", cursive, LiSu, sans-serif;
+    margin: 30px 0 10px 0;
+    font-size: 2em;
+    font-weight: bold; }
+name span {
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    top: -3px;
+    margin-left: 8px;
+    border-bottom: 5px solid #555; 
+}
+  .basic-info p, .basic-info span {
+    font-family: 'Vollkorn', lato;
+    /*font-style: italic;*/
+    margin: 2px 0; }
+    .basic-info p B, .basic-info span B {
+      font-style: normal;
+      font-family: Helvetica; }
+
+ 
+.basic-info .phone img {
+
+}
+
+
+.photo {
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    color: #555;
+    text-align: right;
+}
+.photo img {
+  width: 166px;
+}
+
+.hat {
+    position: absolute;
+    left: 70px;
+    width: 200px;
+    top: -10px;
+    color: #555;
+    text-align: right;
+}
+
+
+.home-page {
+  /*background-image: url("http://cdn.chongminggao.top/photo/background_shallow.jpg");*/
+  /*background-position: 0px -60px; */
+  /*background-size: cover;*/
+  height: 300px;
+  width: 960px; 
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle; 
+}
+a {
+    color: #c05b4d;
+    text-decoration: none;
+}
+
+
+h1 {
+  /*text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: -8px;
+  border-top: 3px solid #555;*/
+
+  /*color: #268bd2;*/
+  color: #555;
+
+  margin-top: 30px;
+  margin-bottom: 0px;
+  /*margin-bottom: -30px;*/
+  /*margin-top: 50px;*/
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-left: 96px;
+  border-top: 5px dotted #555;
+
+}
+
+h1 span {
+    /*position: relative;
+    top: -13px;
+    background-color: white;
+    padding-right: 5px;*/
+
+    position: relative;
+    top: -20px;
+    /*background-color: #f6f7f9;*/
+    background-color: white;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.resume {
+    position: absolute;
+    right: 80px;
+    bottom: -30px;
+    color: #555;
+    font-family: 'Vollkorn', serif;
+    /*font-style: italic;*/
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.experiences {
+  font-weight: 400;
+}
+
+.experiences div {
+  padding-bottom: 5px;
+}
+
+.experiences table{
+  margin: auto;
+}
+
+.experiences .logo {
+  width: 160px;
+  text-align: center;
+}
+
+.experiences .label {
+    background-color: #bdbbbb;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 90%;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.experiences tr {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.experiences .education .des {
+  width: 650px;
+}
+
+.experiences .internship .des {
+  width: 580px;
+}
+
+.experiences .des {
+  color: #555;
+}
+
+.experiences .des .name {
+  font-family: lato,sans-serif;
+  font-weight: 500;
+  color: #444;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.experiences .des .date {
+  font-family: lato,sans-serif;
+  padding-bottom: 5px;
+  font-weight: 500;
+  color: #777;
+  /*font-size: 20px;*/
+}
+
+.experiences .middle {
+  width: 2%;
+}
+
+
+
+/*.content {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+}*/
+
+.content .name {
+  margin-bottom: 10px;
+  font-family: "lato";
+  /*font-weight: bold;*/
+  font-size: 120%;
+}
+
+
+.project .intro::before{
+  /*font-family: "lato";*/
+  content: "项目内容：";
+  font-weight: bold;
+
+}
+
+.project .responsibility::before{
+  /*font-family: "lato";*/
+  content: "本人工作：";
+  font-weight: bold;
+}
+
+.project .intro, .responsibility {
+  position: relative;
+  margin: 5px 0;
+  font-weight: 300;
+  text-align: justify;
+  /*padding-bottom: 5px;*/
+  /*left: 10px;*/
+}
+
+.content  table {
+    /*position: relative;*/
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    margin-bottom: 15px;
+    
+    
+}
+.content  table td{
+    padding-bottom: 8px;
+    font-weight: normal;
+    vertical-align: top;
+    font-size: 17px;
+}
+
+.content table .table_date {
+  text-align: right;
+}
+
+.content table .table_desc {
+  padding-left: 20px;
+}
+
+.project  table .table_date {
+    width: 150px;
+    padding-top: 3px;
+}
+
+.award  table .table_date {
+    width: 150px;
+    /*padding-top: 3px;*/
+}
+
+.award, .skill, .work{
+  font-family: lato;
+}
+
+.work  table .table_date {
+    width: 144px;
+    /*padding-top: 3px;*/
+}
+
+.skill table .table_date {
+  width: 150px;
+}
+
+.skill table .table_desc {
+  width: 380px;
+}
+
+
+/*.footer {
+  background: linear-gradient(rgba(155,155,155,0),rgba(255,255,255,0.8));
+}*/
+
+.footer .copyright {
+    padding: 12px 0;
+    color: #8a8a8a;
+    text-align: center;
+    font-family: "Lato", sans-serif; 
+  }
+
+
+
+
+
+
+paper {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  position: relative;
+  /*height: 300px;*/
+  display: flex;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 95%;
+
+  align-items:center;
+}
+
+/*paper .label {
+    background-color: #bdbbbb;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 90%;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}*/
+
+/*
+Hover style learned from:  https://github.com/artemsheludko/flexible-jekyll
+An example: https://liu-xb.github.io/;
+*/
+
+/*paper:hover {
+  transform: translate(0px, -2px);
+  box-shadow: 0 15px 45px -10px rgba(10, 16, 34, .2);
+}*/
+
+paper:after {
+  content: "";
+  position: absolute;
+  left:0%;
+  bottom:-15px;
+  width: 100%;
+  border-top: 1px dotted #555;
+}
+
+paper#last:after {
+  all: unset; 
+}
+
+paper img {
+  float:left;
+  margin-right:3%;
+  width: 49%;
+}
+paper .des {
+    display: block;
+    width: 55%;
+}
+paper .pub_title {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #111;
+}
+
+paper .pub_authors {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 13px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  color: #133d67;
+}
+
+paper .label-default {
+    background-color: #bdbbbb;
+    /*display: inline;*/
+    display:  inline-block;
+    padding: .2em .6em .3em .6em;
+    margin-bottom: .2em;
+    font-size: 90%;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+paper .pub_type {
+    font-weight: 300;
+    color: #5F5F5F;
+    padding-bottom: 8px;
+    /*font-size: 14px;*/
+}
+
+paper .pub_highlight {
+    font-weight: bold;
+    background-color: #f5a24c;
+    font-size: 90%;
+    line-height: 1.2;
+    color: #ffffff;
+    display: inline;
+    padding: .2em .6em .3em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+
+}
+
