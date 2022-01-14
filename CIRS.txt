@@ -1,0 +1,16 @@
+
+            <paper>
+                <img src="image/CIRS-WWW22.jpg">
+                <div class="des">
+                    <div class="pub_title">CIRS: Bursting Filter Bubbles by Counterfactual Interactive Recommender System</div>
+                    <div class="pub_authors">Chongming Gao, Wenqiang Lei, Jiawei Chen, Xiangnan He, <u>Shiqi Wang</u>, Shijun Li, Biao Li, Yuan Zhang, Peng Zhang</div>
+                    <div class="pub_type">
+                        <span class="label label-default">WWW '22</span>
+                        The Web Conference 2022.
+                    </div>
+                    <div class="pub_downloads">
+                        Download:
+                        [<a href="#" target="_blank">pdf</a>,  <a href="#" target="_blank">slide</a> (45 minutes), <a href="https://github.com/chongminggao/CIRS-codes" target="_blank">code</a>]
+                    </div>                
+                </div>
+            </paper>
