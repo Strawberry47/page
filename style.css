@@ -2,6 +2,20 @@
 @import url(local.google.fonts.css);
 @import url(icontfont.css);
 /*@import url("https://fonts.lug.ustc.edu.cn/css?family=Vollkorn");*/
+
+@media screen and (max-width:640px) {
+  #divMain {
+  width:100%;
+  }
+  #divSidebar {
+  display:none;
+  }
+  p {
+    line-height:150%;
+    }
+  }
+
+
 @font-face {
   font-family: 'Chancery';
   src: url("fonts/chancery/apple-chancery-webfont.eot");
@@ -9,18 +23,6 @@
   font-weight: lighter;
   font-style: normal; }
 
-
-@media screen and (max-width:640px) {
-    #divMain {
-    width:100%;
-    }
-    #divSidebar {
-    display:none;
-    }
-    p {
-      line-height:150%;
-      }
-    }
     
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
