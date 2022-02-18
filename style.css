@@ -9,6 +9,20 @@
   font-weight: lighter;
   font-style: normal; }
 
+
+@media screen and (max-width:640px) {
+    #divMain {
+    width:100%;
+    }
+    #divSidebar {
+    display:none;
+    }
+    p {
+      line-height:150%;
+      }
+    }
+    
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
