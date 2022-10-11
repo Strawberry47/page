@@ -339,7 +339,20 @@ h1 span {
   font-weight: bold;
 }
 
-.project .intro, .responsibility {
+.project .work::before{
+  /*font-family: "lato";*/
+  content: "工作内容：";
+  font-weight: bold;
+
+}
+
+.project .achievement::before{
+  /*font-family: "lato";*/
+  content: "主要成果：";
+  font-weight: bold;
+}
+
+.project .intro, .responsibility, .work,  .achievement{
   position: relative;
   margin: 5px 0;
   font-weight: 300;
